@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Courier New'), local('CourierNewPSMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/e2fc0b95199b08bc.woff) format('woff')
+}
+@font-face {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Courier New Bold'), local('CourierNewPS-BoldMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/a38f38c55b7a57a.woff) format('woff')
+}
+@font-face {
+    font-family: 'Courier New';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Courier New Italic'), local('CourierNewPS-ItalicMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/ec49acf58c10f8a9.woff) format('woff')
+}
+@font-face {
+    font-family: 'Courier New';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Courier New Bold Italic'), local('CourierNewPS-BoldItalicMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/bac7cf2e21ae24d1.woff) format('woff')
+}
+@font-face {
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arial Black'), local('ArialBlack'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/f5c444da86865f17.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arial Black'), local('ArialBlack'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/f5c444da86865f171.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Times New Roman'), local('TimesNewRomanPSMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/f889a07745b512491.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Times New Roman'), local('TimesNewRomanPSMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/f889a07745b51249.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Times New Roman Bold'), local('TimesNewRomanPS-BoldMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/107a32db89f1285b1.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Times New Roman Bold'), local('TimesNewRomanPS-BoldMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/107a32db89f1285b4.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Times New Roman Italic'), local('TimesNewRomanPS-ItalicMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/e5fc7a757e7988.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Times New Roman Italic'), local('TimesNewRomanPS-ItalicMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/e5fc7a757e79881.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Times New Roman Bold Italic'), local('TimesNewRomanPS-BoldItalicMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/bc3ca414adf5d1d.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Times New Roman Bold Italic'), local('TimesNewRomanPS-BoldItalicMT'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/bc3ca414adf5d1d1.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Verdana'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/28f652d19e80fbde1.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Verdana'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/28f652d19e80fbde11.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Verdana Bold'), local('Verdana-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/cd26fb9258467dc1b.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Verdana Bold'), local('Verdana-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/cd26fb9258467dcb2.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Verdana Italic'), local('Verdana-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/48066a2ff839778c2.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Verdana Italic'), local('Verdana-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/48066a2ff839778c.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Verdana Bold Italic'), local('Verdana-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/6d3318b718754b78.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Verdana Bold Italic'), local('Verdana-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/6d3318b718754b781.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+
+@font-face {
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Tahoma'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/9d22fae1754942f63.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Tahoma'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/9d22fae1754942f6.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Tahoma Negreta'), local('Tahoma-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/325a0ea84e3a993.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Tahoma Negreta'), local('Tahoma-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/325a0ea84e3a99.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Book Antiqua'), local('BookAntiqua'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/53198ebebffbde25.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Book Antiqua'), local('BookAntiqua'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/53198ebebffbde21.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Book Antiqua Bold'), local('BookAntiqua-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/9f2d68f1d69270015.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Book Antiqua Bold'), local('BookAntiqua-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/9f2d68f1d69270018.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Book Antiqua Italic'), local('BookAntiqua-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/d843412155f4ee4b3.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Book Antiqua Italic'), local('BookAntiqua-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/d843412155f4ee4b.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Book Antiqua Bold Italic'), local('BookAntiqua-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/a81a5e6e6b2de22.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Book Antiqua';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Book Antiqua Bold Italic'), local('BookAntiqua-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/a81a5e6e6b2de224.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comic Sans MS'), local('ComicSansMS'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/a4ba60ff9fc73cf87.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comic Sans MS'), local('ComicSansMS'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/a4ba60ff9fc73cf85.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comic Sans MS Bold'), local('ComicSansMS-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/47b9a7080319bd8b9.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comic Sans MS Bold'), local('ComicSansMS-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/47b9a7080319bd8b.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Comic Sans MS Italic'), local('ComicSansMS-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/1a31561daae4e6f6.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Comic Sans MS Italic'), local('ComicSansMS-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/1a31561daae4e6f5.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Comic Sans MS Bold Italic'), local('ComicSansMS-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/3b8723a173ab23db6.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Comic Sans MS';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Comic Sans MS Bold Italic'), local('ComicSansMS-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/3b8723a173ab23db9.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Impact'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/5128cd07406988e2.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Impact'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/5128cd07406988e3.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Palatino Linotype'), local('PalatinoLinotype-Roman'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/a7bbb29f8e80de7b.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Palatino Linotype'), local('PalatinoLinotype-Roman'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/a7bbb29f8e80de7b4.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Palatino Linotype Bold'), local('PalatinoLinotype-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/31691cf572f5bde34.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Palatino Linotype Bold'), local('PalatinoLinotype-Bold'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/31691cf572f5bde8.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Palatino Linotype Italic'), local('PalatinoLinotype-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/1291d1e7f9fa73947.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Palatino Linotype Italic'), local('PalatinoLinotype-Italic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/1291d1e7f9fa7394.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Palatino Linotype Bold Italic'), local('PalatinoLinotype-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/3943a091ad116f3a3.woff) format('woff');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: 'Palatino Linotype';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Palatino Linotype Bold Italic'), local('PalatinoLinotype-BoldItalic'), url(//dd-cdn.multiscreensite.com/fonts/additionalfonts/3943a091ad116f3a1.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+
+
